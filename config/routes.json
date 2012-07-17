@@ -1,3 +1,4 @@
 [
-    ["/test", "1/offenders#test"]
+    ["/test", "1/offenders#test"],
+    ["/generate", "1/offenders#generate"]
 ]
