@@ -1,4 +1,4 @@
 [
-    ["/test", "1/offenders#test"],
-    ["/generate", "1/offenders#generate"]
+    ["/VCRAS/Services/clients", "1/offenders#clients"],
+    ["/VCRAS/Services/generate", "1/offenders#generate"]
 ]
