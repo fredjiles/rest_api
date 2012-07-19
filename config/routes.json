@@ -1,4 +1,5 @@
 [
     ["/VCRAS/Services/clients", "1/offenders#clients"],
-    ["/VCRAS/Services/generate", "1/offenders#generate"]
+    ["/VCRAS/Services/generate", "1/offenders#generate"],
+    ["/VCRAS/Services/client/:PersonId", "1/offenders#client", { "PersonId": null }]
 ]

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--https://probation-int.co.ventura.ca.us/Services/client/845107-->
+<Client xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Id>{{PersonId}}</Id>
+	<Class/>
+	<WhereArrived/>
+	<DateArrived xsi:nil="true"/>
+	<PlaceOfBirth/>
+	<OldClientId>3047131</OldClientId>
+	<UserId>5345</UserId>
+	<DateUpdated>2012-04-09T09:51:47.75</DateUpdated>
+	<FileInd>20288</FileInd>
+	<DateFilePurged xsi:nil="true"/>
+	<NunberOfVolumes>1</NunberOfVolumes>
+	<DateNameEntered>{{DateEntered}}</DateNameEntered>
+	<PhoneId>4367251</PhoneId>
+	<AddressId>6096419</AddressId>
+	<ActiveCase>
+        {{> case.handlebars}}
+	</ActiveCase>
+	<LastBooking>
+        {{> booking.handlebars}}
+	</LastBooking>
+	<Addresses>
+        {{> address.handlebars}}
+	</Addresses>
+	<Demographics>
+        {{> demographics.handlebars}}
+	</Demographics>
+	<Identifiers>
+        {{> identifier.handlebars}}
+	</Identifiers>
+	<Names>
+        {{> name.handlebars}}
+	</Names>
+	<Notes>
+        {{> note.handlebars}}
+	</Notes>
+	<Probation>
+        {{> probation.handlebars}}
+	</Probation>
+	<Phones>
+        {{> phone.handlebars}}
+	</Phones>
+	<Photos>
+        {{> photo.handlebars}}
+	</Photos>
+	<HasPhoto>false</HasPhoto>
+	<IsPro>false</IsPro>
+	<IsInCustody>false</IsInCustody>
+</Client>
