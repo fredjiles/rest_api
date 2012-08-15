@@ -1,3 +1,4 @@
+{{#cases}}
 <CaseDefendant>
     <CaseId>{{CaseId}}</CaseId>
     <PersonId>{{PersonId}}</PersonId>
@@ -30,24 +31,26 @@
     <OriginalDisposition>{{OriginalDisposition}}</OriginalDisposition>
     <DateSentenced>{{DateSentenced}}</DateSentenced>
     <StatusCode>
-        <Id>StatusCode.id</Id>
+        <Id>{{StatusCode.id}}</Id>
         <Table>DEFSTS</Table>
-        <Value>StatusCode.value</Value>
+        <Value>{{StatusCode.value}}</Value>
         <DateInvalid xsi:nil="true"/>
-        <Description>StatusCode.description</Description>
+        <Description>{{StatusCode.description}}</Description>
     </StatusCode>
     <DispositionCode>
-        <Id>DispositionCode.id</Id>
+        <Id>{{DispositionCode.id}}</Id>
         <Table>DEFDSP</Table>
-        <Value>DispositionCode.value</Value>
+        <Value>{{DispositionCode.value}}</Value>
         <DateInvalid xsi:nil="true"/>
-        <Description>DispositionCode.description</Description>
+        <Description>{{DispositionCode.description}}</Description>
     </DispositionCode>
     <OffenseLevelCode>
-        <Id>OffenseLevelCode.id</Id>
+        <Id>{{OffenseLevelCode.id}}</Id>
         <Table>OFFLEV</Table>
-        <Value>OffenseLevelCode.value</Value>
+        <Value>{{OffenseLevelCode.value}}</Value>
         <DateInvalid xsi:nil="true"/>
-        <Description>OffenseLevelCode.description</Description>
+        <Description>{{OffenseLevelCode.description}}</Description>
     </OffenseLevelCode>
 </CaseDefendant>
+{{/cases}}
+
