@@ -16,6 +16,6 @@ apiServer.addModule('1', 'offenders', new ApiModules.Offenders({}));
 
 apiServer.router.addRoutes(routes);
 
-apiServer.listen(8080, function () {
-    console.info(' ✈ ApiServer listening at http://localhost:8080\n'.green)
+apiServer.listen(8082, function () {
+    console.info(' ✈ ApiServer listening at http://localhost:8082\n'.green)
 });
